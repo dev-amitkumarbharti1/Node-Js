@@ -3,3 +3,52 @@ h1,body{
     padding: 0;
     overflow: hidden;
 }
+body{
+    background-color: #d5dce8;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 10px 0;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+}
+.form-container{
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5%;
+    padding: 20px 40px;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 20px 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: none;
+}
+textarea{
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    border: none;
+}
+label{
+    font-weight: 100;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button{
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #496885;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+}
