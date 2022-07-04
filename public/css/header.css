@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    background-color: bisque;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.navigation{
+    flex-grow: 1;
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_menu-item{
+    list-style: none;
+}
+.nav_menu-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.nav_menu-item a:hover{
+    text-decoration: underline;
+    color: rgb(17, 17, 209);
+}
